@@ -10,12 +10,12 @@
     <PackageId>FS4CSharp</PackageId>
     <Title>fs4csharp</Title>
     <Authors>jaysongo</Authors>
-    <Description>fs4csharp is functional style for C# by providing monads and functoids to the language</Description>
+    <Description>fs4charp is functional style for C# and provides a library of types and functions to enable a more functional C# code design.</Description>
     <Copyright>© Jayson Go. All rights reserved.</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIconUrl>https://github.com/jaysongo/fs4csharp/blob/master/img/logo.jpg</PackageIconUrl>
     <PackageReleaseNotes>Initial version</PackageReleaseNotes>
-    <PackageTags>fs;functional style;csharp;c#</PackageTags>
+    <PackageTags>fs;functional-style;csharp;c#</PackageTags>
     <RepositoryUrl>https://github.com/jaysongo/fs4csharp</RepositoryUrl>
   </PropertyGroup>
 </Project>
