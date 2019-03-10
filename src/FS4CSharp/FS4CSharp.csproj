@@ -4,4 +4,18 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <PackageVersion>0.1.0</PackageVersion>
+    <PackageId>FS4CSharp</PackageId>
+    <Title>fs4csharp</Title>
+    <Authors>jaysongo</Authors>
+    <Description>fs4csharp is functional style for C# by providing monads and functoids to the language</Description>
+    <Copyright>© Jayson Go. All rights reserved.</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIconUrl>https://github.com/jaysongo/fs4csharp/blob/master/img/logo.jpg</PackageIconUrl>
+    <PackageReleaseNotes>Initial version</PackageReleaseNotes>
+    <PackageTags>fs;functional style;csharp;c#</PackageTags>
+    <RepositoryUrl>https://github.com/jaysongo/fs4csharp</RepositoryUrl>
+  </PropertyGroup>
 </Project>
