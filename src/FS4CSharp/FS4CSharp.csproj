@@ -6,7 +6,7 @@
 
   <PropertyGroup>
     <IsPackable>true</IsPackable>
-    <PackageVersion>0.1.0</PackageVersion>
+    <PackageVersion>0.1.1</PackageVersion>
     <PackageId>FS4CSharp</PackageId>
     <Title>fs4csharp</Title>
     <Authors>jaysongo</Authors>
