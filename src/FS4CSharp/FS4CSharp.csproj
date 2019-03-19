@@ -18,11 +18,4 @@
     <PackageTags>fs;functional-style;csharp;c#</PackageTags>
     <RepositoryUrl>https://github.com/jaysongo/fs4csharp</RepositoryUrl>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="coverlet.msbuild" Version="2.6.0">
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
-  </ItemGroup>
 </Project>

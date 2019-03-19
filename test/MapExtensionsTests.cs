@@ -53,5 +53,12 @@ namespace FS4CSharp.Tests
             Assert.Same(input, output);
             Assert.Equal(1, number);
         }
+
+        public void MapFinalSample()
+        {
+            var input = "123";
+
+            input.MapFinal(s => int.Parse(s));
+        }
     }
 }

@@ -11,5 +11,7 @@ namespace FS4CSharp
             map();
             return input;
         }
+
+        public static void MapFinal<TInput>(this TInput input, Action<TInput> map) => map(input);
     }
 }
