@@ -6,16 +6,23 @@
 
   <PropertyGroup>
     <IsPackable>true</IsPackable>
-    <PackageVersion>0.1.1</PackageVersion>
+    <PackageVersion>0.1.2-alpha</PackageVersion>
     <PackageId>FS4CSharp</PackageId>
     <Title>fs4csharp</Title>
     <Authors>jaysongo</Authors>
     <Description>fs4charp is functional style for C# and provides a library of types and functions to enable a more functional C# code design.</Description>
     <Copyright>© Jayson Go. All rights reserved.</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageIconUrl>https://github.com/jaysongo/fs4csharp/blob/master/img/logo.jpg</PackageIconUrl>
+    <PackageIconUrl>https://github.com/jaysongo/fs4csharp/raw/master/img/logo.jpg</PackageIconUrl>
     <PackageReleaseNotes>Initial version</PackageReleaseNotes>
     <PackageTags>fs;functional-style;csharp;c#</PackageTags>
     <RepositoryUrl>https://github.com/jaysongo/fs4csharp</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.msbuild" Version="2.6.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
 </Project>
